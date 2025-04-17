@@ -1,0 +1,26 @@
+Twigil Audio Switcher – Release Notes
+=======================================
+
+Version: 1.0.0
+Release Date: 2025-04-16
+
+Overview:
+---------
+Twigil Audio Switcher is a lightweight PowerShell utility designed to help users effortlessly switch between audio playback devices using a global hotkey. The project includes a text-based GUI which allows users to set up a global hotkey, manage device statuses, update device lists, and toggle auto-run features for the hotkey service at startup.
+
+Features:
+---------
+• Global Hotkey Support – Configure a hotkey (e.g., Ctrl+Alt+T) to cycle through enabled audio playback devices.
+• Persistent Hotkey Service – A hidden background service that listens for the hotkey and triggers the device switch.
+• Device Management – Mark devices as enabled/disabled via a JSON configuration file. Disabled devices are skipped.
+• Auto-Run Toggle – Option to automatically run the hotkey service on startup via a registry entry.
+• Module Install Support – The GUI can install the required AudioDeviceCmdlets module if needed.
+• Hidden Process Launching – All subordinate scripts (like device switching) run silently in hidden windows.
+
+Known Limitations / Future Enhancements:
+------------------------------------------
+• Installer integration might be provided in a future release.
+• Additional logging and error reporting features could be added.
+• Cross-platform support is not available at this time.
+
+Enjoy the release and feel free to report any issues or suggest improvements!

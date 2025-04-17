@@ -1,0 +1,30 @@
+﻿{
+    "Devices":  [
+                    {
+                        "Name":  "SAMSUNG (NVIDIA High Definition Audio)",
+                        "Index":  1,
+                        "Type":  "Playback",
+                        "Disabled":  false
+                    },
+                    {
+                        "Name":  "Speakers (USB Audio CODEC )",
+                        "Index":  2,
+                        "Type":  "Playback",
+                        "Disabled":  false
+                    },
+                    {
+                        "Name":  "Speakers (High Definition Audio Device)",
+                        "Index":  3,
+                        "Type":  "Playback",
+                        "Disabled":  false
+                    },
+                    {
+                        "Name":  "Digital Audio (S/PDIF) (High Definition Audio Device)",
+                        "Index":  4,
+                        "Type":  "Playback",
+                        "Disabled":  true
+                    }
+                ],
+    "CurrentIndex":  2,
+    "HotkeyPattern":  "Win+Shift+A"
+}
